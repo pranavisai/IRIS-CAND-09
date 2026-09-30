@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "source_id": "SITE-001",
+        "country_code": "DE",
+        "region_code": "NW",
+        "site_name": "Pilot Site A",
+        "source_date": "2026-09-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.4653, 51.5136]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_id": "SITE-002",
+        "country_code": "DE",
+        "region_code": "NW",
+        "site_name": "Pilot Site B",
+        "source_date": "2026-09-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.4680, 51.5150]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_id": "SITE-003",
+        "country_code": "DE",
+        "region_code": "NW",
+        "site_name": "Pilot Site C",
+        "source_date": "2026-09-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.4700, 51.5100]
+      }
+    }
+  ]
+}

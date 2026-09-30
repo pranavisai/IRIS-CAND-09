@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "source_id": "FR-SITE-001",
+        "country_code": "FR",
+        "region_code": "IDF",
+        "site_name": "Paris Pilot Site A",
+        "source_date": "2026-09-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3522, 48.8566]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_id": "FR-SITE-002",
+        "country_code": "FR",
+        "region_code": "IDF",
+        "site_name": "Paris Pilot Site B",
+        "source_date": "2026-09-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2950, 48.8738]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_id": "FR-SITE-003",
+        "country_code": "FR",
+        "region_code": "IDF",
+        "site_name": "Paris Pilot Site C",
+        "source_date": "2026-09-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3700, 48.8460]
+      }
+    }
+  ]
+}

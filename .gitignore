@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.dev.example
+!.env.second-host.example
+
+# Generated output and logs
+output/
+logs/
+
+.DS_Store
