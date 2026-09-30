@@ -177,6 +177,8 @@ To remove the database volume and all stored data (for a complete reset):
 docker compose down -v
 ```
 
+**Warning:** `docker compose down -v` deletes the local database data.
+
 ### Worker responsibilities
 
 1. Loads the application configuration.
@@ -245,24 +247,7 @@ Input GeoJSON coordinates are interpreted as longitude and latitude in WGS 84 (E
 
 Spatial indexing is provided by a GiST index. Coordinates are stored in degrees. Any future distance or area calculations must use an appropriate projected CRS or geodesic calculations.
 
-
-## 11. Stop the application
-
-Stop the database container:
-
-```bash
-docker compose down
-```
-
-To remove the database volume as well:
-
-```bash
-docker compose down -v
-```
-
-**Warning:** `docker compose down -v` deletes the local database data.
-
-## 12. Security considerations
+## 11. Security considerations
 
 The pilot runtime includes the following security measures:
 
