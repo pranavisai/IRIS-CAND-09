@@ -154,7 +154,7 @@ Expected result after loading both fixtures into the same database:
  FR           | IDF         |     3
 ```
 
-## 5. Start the application
+## 5. Starting and stopping the application
 
 For a fresh installation, follow the configuration and startup instructions in Section 4. The environment file must be created before the database is initialized.
 

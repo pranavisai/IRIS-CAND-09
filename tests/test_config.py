@@ -2,6 +2,7 @@
 from app.config import Settings
 
 
+# Check that config values are normalized and validated consistently.
 def test_country_and_region_are_normalized():
     settings = Settings(
         country_code="de",

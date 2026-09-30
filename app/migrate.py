@@ -5,6 +5,7 @@ import psycopg
 from app.config import load_settings
 
 
+# SQL files in this directory are applied once per version.
 MIGRATIONS_DIR = Path(__file__).resolve().parent.parent / "migrations"
 
 

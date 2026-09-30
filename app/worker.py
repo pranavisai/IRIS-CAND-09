@@ -14,6 +14,7 @@ setup_logging()
 logger = logging.getLogger(__name__)
 
 
+# Validate one GeoJSON feature before inserting it into the database.
 def validate_feature(feature, country, region):
     props = feature.get("properties") or {}
     geom = feature.get("geometry") or {}
@@ -62,6 +63,7 @@ def validate_feature(feature, country, region):
     }
 
 
+# Normalize and store all valid features for the selected country/region.
 def process_features(features, settings):
     sites = []
 
@@ -94,6 +96,7 @@ def process_features(features, settings):
     return len(sites)
 
 
+# Entry point for loading source data, validating it, and writing the summary file.
 def main():
     settings = load_settings()
     run_migrations()

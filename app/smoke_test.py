@@ -3,6 +3,7 @@ from app.config import load_settings
 from app.db import get_connection
 
 
+# Quick health checks for the configured PostGIS database and region data.
 def main():
     settings = load_settings()
 

@@ -1,5 +1,6 @@
 import json
 
+# Reads a GeoJSON file and exposes its feature list to the rest of the app.
 class GeoJSONAdapter:
     def load_features(self, source: str) -> list[dict]:
         with open(source, "r", encoding="utf-8") as f:

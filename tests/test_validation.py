@@ -4,6 +4,7 @@ import pytest
 from app.worker import validate_feature
 
 
+# A valid feature payload used across the validation tests.
 @pytest.fixture
 def valid_feature():
     return {

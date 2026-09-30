@@ -2,6 +2,7 @@ import logging
 from pathlib import Path
 
 
+# Configure the app logger so runtime output is available in both console and file.
 def setup_logging():
     # Resolve the project root, regardless of where the app runs.
     project_root = Path(__file__).resolve().parent.parent
